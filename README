@@ -1,0 +1,9 @@
+./histZnakov -b <size> -t <read or mmap> <filename>
+
+-t <read or mmap>
+
+Choose which function to use for reading
+
+-b <buffer size>
+
+Buffer size in bytes when using read function, if using mmap this is irrelevant
